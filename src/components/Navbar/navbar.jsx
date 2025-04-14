@@ -1,9 +1,25 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import "./navbar.css";
 import { FaHome, FaCog } from "react-icons/fa";
-// import ToggleSwitch from "./ToggleSwitch";
+import avatarList from "../../assets/avatarList";
 
-function Navbar() {
+const Navbar = () => {
+  const [avatar, setAvatar] = useState("");
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    let storedAvatar = localStorage.getItem("selectedAvatar");
+
+    if (!storedAvatar) {
+      const randomAvatar = avatarList[Math.floor(Math.random() * avatarList.length)];
+      localStorage.setItem("selectedAvatar", randomAvatar);
+      storedAvatar = randomAvatar;
+    }
+
+    setAvatar(storedAvatar);
+  }, []);
+
   return (
     <nav className="navbar">
       <div className="logo-container">
@@ -19,11 +35,15 @@ function Navbar() {
         <button className="icon-btn">
           <FaCog />
         </button>
-        {/* <ToggleSwitch /> */}
-        <img src="/images/user.jpg" alt="User" className="user-avatar" />
+        <img
+          src={avatar}
+          alt="User Avatar"
+          className="user-avatar"
+          onClick={() => navigate("/profile-settings")}
+        />
       </div>
     </nav>
   );
-}
+};
 
 export default Navbar;

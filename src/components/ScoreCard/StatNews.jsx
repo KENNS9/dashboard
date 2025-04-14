@@ -1,5 +1,5 @@
 import React from "react";
-import { FaRegNewspaper } from "react-icons/fa"; // Ikon berita dari react-icons
+import { FaRegNewspaper } from "react-icons/fa";
 
 const StatNews = ({ title, value }) => {
   return (

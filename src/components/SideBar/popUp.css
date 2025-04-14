@@ -1,0 +1,30 @@
+.popup {
+  position: absolute;
+  bottom: 80px;
+  left: 10px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+  width: 225px;
+  z-index: 1000;
+  color: #485159;
+}
+
+.popup h4{
+  font-weight: bold;
+}
+
+.popup-item {
+  padding: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #485159;
+}
+
+.popup-item:hover {
+  background: #f0f0f0;
+  border-radius: 5px;
+}

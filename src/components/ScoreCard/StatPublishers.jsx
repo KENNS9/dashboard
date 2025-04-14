@@ -1,5 +1,5 @@
 import React from "react";
-import { FaRegBuilding } from "react-icons/fa"; // Ikon berita dari react-icons
+import { FaRegBuilding } from "react-icons/fa"; 
 
 const StatPub = ({ title, value }) => {
   return (

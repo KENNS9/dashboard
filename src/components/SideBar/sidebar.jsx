@@ -1,96 +1,129 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./sidebar.css";
-import { BiChevronDown, BiList } from "react-icons/bi";
+import { BiChevronDown, BiMenu } from "react-icons/bi";
+import { FaHome, FaCalendarAlt, FaCalendarWeek, FaCalendarPlus } from "react-icons/fa";
+import ProfilePopup from "./profilePopup";
 
 const Sidebar = () => {
   const [openMenus, setOpenMenus] = useState({});
+  const [isHovered, setIsHovered] = useState(false);
+  const [avatar, setAvatar] = useState("");
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+  useEffect(() => {
+  if (!isSidebarOpen) {
+    setOpenMenus({}); 
+  }
+}, [isSidebarOpen]);
 
   const toggleMenu = (menu) => {
-    setOpenMenus((prev) => ({
-      ...prev,
-      [menu]: !prev[menu],
-    }));
-  };
+  setOpenMenus((prev) => ({
+    ...prev,
+    [menu]: !prev[menu],
+  }));
+};
+
 
   return (
-    <div className="sidebar">
-      <ul className="nav flex-column">
-        {/* Dashboard */}
-        <li className="nav-item">
-          <a
-            href="#"
-            className={`nav-link ${openMenus.dashboard ? "active" : ""}`}
-            onClick={() => toggleMenu("dashboard")}
-          >
-            <FaHome className="icon" />
-            <span>Dashboard</span>
-            <BiChevronDown className={`arrow ${openMenus.dashboard ? "rotate" : ""}`} />
-          </a>
-          <ul className={`submenu ${openMenus.dashboard ? "open" : ""}`}>
-            <li><a href="#" className="nav-link sub">• Daily</a></li>
-
-            <li>
-              <a href="#" className="nav-link sub" onClick={() => toggleMenu("weekly")}>
-                • Weekly <BiChevronDown className={`arrow ${openMenus.weekly ? "rotate" : ""}`} />
+    <>
+      <div className={`sidebar ${isSidebarOpen ? "open" : "closed"}`}>
+        <button className="sidebar-toggle" onClick={() => {setIsSidebarOpen(!isSidebarOpen); if (isSidebarOpen) {setOpenMenus({});}}}>
+          <BiMenu size={24} />
+        </button>
+        <div className="nav">
+          <ul className="nav flex-column">
+            <li className="nav-item">
+              <a
+                href="#"
+                className={`nav-link ${openMenus.daily ? "active" : ""}`}
+                onClick={() => toggleMenu("daily")}
+              >
+                <FaHome className="icon" />
+                <span>Daily</span>            
+                <BiChevronDown className={`arrow ${openMenus.daily ? "rotate" : ""}`} />
               </a>
-              <ul className={`submenu ${openMenus.weekly ? "open" : ""}`}>
-                {[1, 2, 3, 4].map((week) => (
-                  <li key={week}><a href="#" className="nav-link sub">• Week {week}</a></li>
-                ))}
-              </ul>
+              {openMenus.daily && (
+                <ul className={`submenu ${openMenus.daily ? "open" : ""}`}>
+                  <li><a href="#" className="nav-link sub">• Technology</a></li>
+                  <li><a href="#" className="nav-link sub">• Politics</a></li>
+                  <li><a href="#" className="nav-link sub">• Bussines</a></li>
+                  <li><a href="#" className="nav-link sub">• Science</a></li>
+                </ul>
+              )}
             </li>
 
-            <li>
-              <a href="#" className="nav-link sub" onClick={() => toggleMenu("monthly")}>
-                • Monthly <BiChevronDown className={`arrow ${openMenus.monthly ? "rotate" : ""}`} />
+            <li className="nav-item">
+              <a
+                href="#"
+                className={`nav-link ${openMenus.weekly ? "active" : ""}`}
+                onClick={() => toggleMenu("weekly")}
+              >
+                <FaCalendarWeek className="icon" />
+                <span>Weekly</span>
+                <BiChevronDown className={`arrow ${openMenus.weekly ? "rotate" : ""}`} />
               </a>
-              <ul className={`submenu ${openMenus.monthly ? "open" : ""}`}>
-                {["Januari", "Februari", "Maret", "April", "Mei", "Juni",
-                  "Juli", "Agustus", "September", "Oktober", "November", "Desember"]
-                  .map((month) => (
-                    <li key={month}><a href="#" className="nav-link sub">• {month}</a></li>
-                  ))}
-              </ul>
+              {openMenus.weekly && (
+                <ul className={`submenu ${openMenus.weekly ? "open" : ""}`}>
+                  <li><a href="#" className="nav-link sub">• Technology</a></li>
+                  <li><a href="#" className="nav-link sub">• Politics</a></li>
+                  <li><a href="#" className="nav-link sub">• Bussines</a></li>
+                  <li><a href="#" className="nav-link sub">• Science</a></li>
+                </ul>
+              )}
             </li>
 
-            <li>
-              <a href="#" className="nav-link sub" onClick={() => toggleMenu("yearly")}>
-                • Yearly <BiChevronDown className={`arrow ${openMenus.yearly ? "rotate" : ""}`} />
+            <li className="nav-item">
+              <a
+                href="#"
+                className={`nav-link ${openMenus.monthly ? "active" : ""}`}
+                onClick={() => toggleMenu("monthly")}
+              >
+                <FaCalendarAlt className="icon" />
+                <span>Monthly</span>
+                <BiChevronDown className={`arrow ${openMenus.monthly ? "rotate" : ""}`} />
               </a>
-              <ul className={`submenu ${openMenus.yearly ? "open" : ""}`}>
-                {[2021, 2022, 2023, 2024, 2025].map((year) => (
-                  <li key={year}><a href="#" className="nav-link sub">• {year}</a></li>
-                ))}
-              </ul>
+              {openMenus.monthly && (
+                <ul className={`submenu ${openMenus.monthly ? "open" : ""}`}>
+                  <li><a href="#" className="nav-link sub">• Technology</a></li>
+                  <li><a href="#" className="nav-link sub">• Politics</a></li>
+                  <li><a href="#" className="nav-link sub">• Bussines</a></li>
+                  <li><a href="#" className="nav-link sub">• Science</a></li>
+                </ul>
+              )}
+            </li>
+
+            <li className="nav-item">
+              <a
+                href="#"
+                className={`nav-link ${openMenus.yearly ? "active" : ""}`}
+                onClick={() => toggleMenu("yearly")}
+              >
+                <FaCalendarPlus className="icon" />
+                <span>Yearly</span>
+                <BiChevronDown className={`arrow ${openMenus.yearly ? "rotate" : ""}`} />
+              </a>
+              {openMenus.yearly && (
+                <ul className={`submenu ${openMenus.yearly ? "open" : ""}`}>
+                  <li><a href="#" className="nav-link sub">• Technology</a></li>
+                  <li><a href="#" className="nav-link sub">• Politics</a></li>
+                  <li><a href="#" className="nav-link sub">• Bussines</a></li>
+                  <li><a href="#" className="nav-link sub">• Science</a></li>
+                </ul>
+              )}
             </li>
           </ul>
-        </li>
+         </div>
+        
+       <div className="profile-section" onClick={() => setIsPopupOpen(!isPopupOpen)}>
+          <img src={avatar} alt="User Avatar" className="avatar" />
+          {isSidebarOpen && <span className="profile-text">My Profile</span>}
+        </div>
+        <ProfilePopup isOpen={isPopupOpen} onClose={() => setIsPopupOpen(false)} />
 
-        {/* Category */}
-        <li className="nav-item">
-          <a href="#" className="nav-link" onClick={() => toggleMenu("category")}>
-            <BiList className="icon" />
-            <span>Category</span>
-            <BiChevronDown className={`arrow ${openMenus.category ? "rotate" : ""}`} />
-          </a>
-          <ul className={`submenu ${openMenus.category ? "open" : ""}`}>
-            {["Business", "Top", "World", "Politics", "Lifestyle",
-              "Sports", "Health", "Environment", "Crime", "Other"]
-              .map((category) => (
-                <li key={category}><a href="#" className="nav-link sub">• {category}</a></li>
-              ))}
-          </ul>
-        </li>
-
-        {/* Settings */}
-        <li className="nav-item">
-          <a href="#" className="nav-link">
-            <FaCog className="icon" />
-            <span>Settings</span>
-          </a>
-        </li>
-      </ul>
-    </div>
+        
+      </div>
+    </>
   );
 };
 
