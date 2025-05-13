@@ -1,0 +1,559 @@
+{
+    "date": "2025-04-29",
+    "totalNews": 6174,
+    "totalPublishers": 45,
+    "topicsPieChart": [
+        {
+            "eventUri": "eng-10556119",
+            "label": "Massive explosion rocks Iran as four are killed",
+            "articleCount": 2383
+        },
+        {
+            "eventUri": "eng-10540647",
+            "label": "Trump administration to announce plan to remove artificial food dyes from US food supply",
+            "articleCount": 368
+        },
+        {
+            "eventUri": "zho-1811441",
+            "label": "三亚舰、五指山舰，一\"舰\"倾心",
+            "articleCount": 297
+        },
+        {
+            "eventUri": "eng-10544968",
+            "label": "Veteran Chinese astronaut to lead fresh crew to space station",
+            "articleCount": 224
+        },
+        {
+            "eventUri": "eng-10552868",
+            "label": "Former ISRO chief K Kasturirangan dies at 84",
+            "articleCount": 187
+        },
+        {
+            "eventUri": "eng-10552114",
+            "label": "US says blast near Yemen UNESCO world heritage site caused by Houthi missile",
+            "articleCount": 142
+        },
+        {
+            "eventUri": "eng-10542679",
+            "label": "In US, saving money is top reason to embrace solar power",
+            "articleCount": 133
+        },
+        {
+            "eventUri": "eng-10547463",
+            "label": "'Energy security' is being used to justify more fossil fuels - but this will only make us less secure",
+            "articleCount": 130
+        },
+        {
+            "eventUri": "eng-10558833",
+            "label": "Times Investigation Into the Deadly Crash at National Airport: 5 Takeaways",
+            "articleCount": 109
+        },
+        {
+            "eventUri": "eng-10539904",
+            "label": "Artificial Intelligence: The Hidden Enemy Consuming Our World?",
+            "articleCount": 105
+        },
+        {
+            "eventUri": "eng-10551920",
+            "label": "Who was Rob Holland? Renowned stunt pilot dies in plane crash at Virginia's Langley AFB",
+            "articleCount": 97
+        },
+        {
+            "eventUri": "eng-10558030",
+            "label": "Live coverage: SpaceX to launch 27 Starlink satellites on Falcon 9 rocket from Vandenberg SFB",
+            "articleCount": 93
+        },
+        {
+            "eventUri": "eng-10558834",
+            "label": "China tops world in total nuclear energy for first time",
+            "articleCount": 88
+        },
+        {
+            "eventUri": "eng-10552944",
+            "label": "Oman plans 300 - 400km hydrogen pipeline by 2030",
+            "articleCount": 85
+        },
+        {
+            "eventUri": "eng-10554070",
+            "label": "This game-changing company has cracked the code on $0 solar panel installations  --  here's how to tap into major savings",
+            "articleCount": 84
+        },
+        {
+            "eventUri": "eng-10558439",
+            "label": "Amazon rocket launch, Atlas V liftoff from Cape Canaveral may be seen in Vero Beach, Fort Pierce",
+            "articleCount": 79
+        },
+        {
+            "eventUri": "rus-1869008",
+            "label": "Израиль заявил о перехвате запущенной из Йемена ракеты",
+            "articleCount": 76
+        },
+        {
+            "eventUri": "eng-10550861",
+            "label": "Camila Cabello mocks Katy Perry for flying to space to promote her...",
+            "articleCount": 75
+        },
+        {
+            "eventUri": "eng-10559411",
+            "label": "Thousands of UK deaths per year may be linked to ultra-processed foods - study",
+            "articleCount": 74
+        },
+        {
+            "eventUri": "eng-10551857",
+            "label": "Trump to offer Saudi Arabia RTX, Lockheed Martin arms package",
+            "articleCount": 70
+        },
+        {
+            "eventUri": "eng-10550285",
+            "label": "Missile That Killed Eight in Russian Strike on Kyiv Was N.Korean, Kyiv Source Says",
+            "articleCount": 67
+        },
+        {
+            "eventUri": "eng-10557760",
+            "label": "Indian Navy carries out anti-ship firing drills",
+            "articleCount": 63
+        },
+        {
+            "eventUri": "rus-1870270",
+            "label": "Украина готова помочь Европе в восстановлении энергосетей - Галущенко | УНН",
+            "articleCount": 58
+        },
+        {
+            "eventUri": "eng-10549468",
+            "label": "Video: Navy warship conducts missile test in Arabian Sea",
+            "articleCount": 53
+        },
+        {
+            "eventUri": "eng-10552443",
+            "label": "A Thai police plane crashes in the sea, killing all 6 on board",
+            "articleCount": 53
+        },
+        {
+            "eventUri": "eng-10544948",
+            "label": "Missile Intercepted Over Israel Amid Yemen Tensions | Law-Order",
+            "articleCount": 51
+        },
+        {
+            "eventUri": "spa-3822207",
+            "label": "Shell venderá sus activos en Colombia y dejará de ser socia de Ecopetrol en gas",
+            "articleCount": 49
+        },
+        {
+            "eventUri": "rus-1869146",
+            "label": "В Польше заявили о нарушении воздушного пространства российским самолетом",
+            "articleCount": 49
+        },
+        {
+            "eventUri": "eng-10545384",
+            "label": "Great British Energy - No2NuclearPower",
+            "articleCount": 48
+        },
+        {
+            "eventUri": "eng-10545586",
+            "label": "China-led lunar base to include nuclear power plant on moon's surface, space official",
+            "articleCount": 45
+        },
+        {
+            "eventUri": "eng-10550529",
+            "label": "Louisiana wants to pave the way for small nuclear reactors, an untested technology in the U.S.",
+            "articleCount": 44
+        },
+        {
+            "eventUri": "eng-10556549",
+            "label": "Driver injured as truck plunges off Lagos bridge",
+            "articleCount": 43
+        },
+        {
+            "eventUri": "eng-10557584",
+            "label": "US deploys NMESIS missile system during Balikatan 2025",
+            "articleCount": 42
+        },
+        {
+            "eventUri": "eng-10543532",
+            "label": "Homeowner sparks heated debate after criticizing in-laws' outdated HVAC: 'I couldn't take it'",
+            "articleCount": 41
+        },
+        {
+            "eventUri": "eng-10544382",
+            "label": "Sam Altman steps down as Oklo board chair, freeing nuclear startup to work with more AI companies",
+            "articleCount": 41
+        },
+        {
+            "eventUri": "eng-10542656",
+            "label": "NOVAGOLD Resources and Paulson Advisers Announce $1 Billion Transaction to Acquire 50% of the Donlin Gold Project From Barrick",
+            "articleCount": 41
+        },
+        {
+            "eventUri": "eng-10550977",
+            "label": "NASA Orbiter Sees Curiosity Rover's Journey to Next Site",
+            "articleCount": 40
+        },
+        {
+            "eventUri": "eng-10550438",
+            "label": "9-hour power outage in parts of Gauteng on Friday",
+            "articleCount": 40
+        },
+        {
+            "eventUri": "eng-10548545",
+            "label": "Water Woes: Opelousas Low Pressure & Boil Advisory",
+            "articleCount": 38
+        },
+        {
+            "eventUri": "eng-10550134",
+            "label": "Stellantis and Factorial Energy Reach Key Milestone in Solid-State Battery Development",
+            "articleCount": 38
+        },
+        {
+            "eventUri": "eng-10560299",
+            "label": "Start a Bitcoin Miner with Dogecoin (DOGE) to Earn $5700 a Day | Bitcoinist.com",
+            "articleCount": 37
+        },
+        {
+            "eventUri": "eng-10545409",
+            "label": "Udangudi power plants to be commissioned by the end of 2025, says Electricity Minister",
+            "articleCount": 35
+        },
+        {
+            "eventUri": "eng-10559643",
+            "label": "Drone attack on Russian city of Bryansk kills civilian, leaves another injured",
+            "articleCount": 35
+        },
+        {
+            "eventUri": "eng-10545097",
+            "label": "Pakistani Astronauts Set for Historic Journey to China's Space Station | Science-Environment",
+            "articleCount": 34
+        },
+        {
+            "eventUri": "eng-10545871",
+            "label": "SpaceX launches Bandwagon-3 mission, European re-entry capsule",
+            "articleCount": 34
+        },
+        {
+            "eventUri": "eng-10542513",
+            "label": "Tinubu Abandons Nigeria's Electricity Challenges, Approves N10bn Solar Power For Aso Rock - OsunDefender",
+            "articleCount": 32
+        },
+        {
+            "eventUri": "eng-10548824",
+            "label": "Trump emergency move aims to cut approval times for energy projects...",
+            "articleCount": 31
+        },
+        {
+            "eventUri": "eng-10561461",
+            "label": "Trump administration allows temporary sales of summertime...",
+            "articleCount": 31
+        },
+        {
+            "eventUri": "eng-10551703",
+            "label": "USDA withdraws a plan to limit salmonella levels in raw poultry",
+            "articleCount": 31
+        },
+        {
+            "eventUri": "eng-10545838",
+            "label": "UAE's greenlights design for first hybrid heliport at Zayed Port",
+            "articleCount": 31
+        }
+    ],
+    "topicsDetail": {
+        "eng-10556119": [
+            {
+                "title": "Massive explosion rocks Iran as four are killed",
+                "url": "https://www.dailymail.co.uk/news/article-14650603/Iran-explosion-people-killed-injured.html"
+            }
+        ],
+        "eng-10540647": [
+            {
+                "title": "Trump administration to announce plan to remove artificial food dyes from US food supply",
+                "url": "https://edition.cnn.com/2025/04/21/health/food-dye-removed-hhs-wellness/index.html"
+            }
+        ],
+        "zho-1811441": [
+            {
+                "title": "三亚舰、五指山舰，一\"舰\"倾心",
+                "url": "https://baijiahao.baidu.com/s?id=1830358084505375087"
+            }
+        ],
+        "eng-10544968": [
+            {
+                "title": "Veteran Chinese astronaut to lead fresh crew to space station",
+                "url": "https://www.yahoo.com/news/veteran-chinese-astronaut-lead-fresh-052822095.html"
+            }
+        ],
+        "eng-10552868": [
+            {
+                "title": "Former ISRO chief K Kasturirangan dies at 84",
+                "url": "https://telanganatoday.com/former-isro-chief-k-kasturirangan-dies-at-84"
+            }
+        ],
+        "eng-10552114": [
+            {
+                "title": "US says blast near Yemen UNESCO world heritage site caused by Houthi missile",
+                "url": "https://english.alarabiya.net/News/middle-east/2025/04/25/us-says-blast-near-yemen-unesco-world-heritage-site-caused-by-houthi-missile"
+            }
+        ],
+        "eng-10542679": [
+            {
+                "title": "In US, saving money is top reason to embrace solar power",
+                "url": "https://www.eurekalert.org/news-releases/1081210"
+            }
+        ],
+        "eng-10547463": [
+            {
+                "title": "'Energy security' is being used to justify more fossil fuels - but this will only make us less secure",
+                "url": "https://www.unitedkingdomnews.net/news/278181625/energy-security-is-being-used-to-justify-more-fossil-fuels-but-this-will-only-make-us-less-secure"
+            }
+        ],
+        "eng-10558833": [
+            {
+                "title": "Times Investigation Into the Deadly Crash at National Airport: 5 Takeaways",
+                "url": "https://www.nytimes.com/2025/04/27/us/politics/takeaways-investigation-airport-collision.html"
+            }
+        ],
+        "eng-10539904": [
+            {
+                "title": "Artificial Intelligence: The Hidden Enemy Consuming Our World?",
+                "url": "https://www.raillynews.com/2025/04/Is-artificial-intelligence-the-hidden-enemy-that-is-consuming-our-world/"
+            }
+        ],
+        "eng-10551920": [
+            {
+                "title": "Who was Rob Holland? Renowned stunt pilot dies in plane crash at Virginia's Langley AFB",
+                "url": "https://www.hindustantimes.com/world-news/us-news/who-was-rob-holland-renowned-stunt-pilot-dies-in-plane-crash-at-virginias-langley-afb-101745529441059.html"
+            }
+        ],
+        "eng-10558030": [
+            {
+                "title": "Live coverage: SpaceX to launch 27 Starlink satellites on Falcon 9 rocket from Vandenberg SFB",
+                "url": "https://spaceflightnow.com/2025/04/26/live-coverage-spacex-to-launch-27-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-3/"
+            }
+        ],
+        "eng-10558834": [
+            {
+                "title": "China tops world in total nuclear energy for first time",
+                "url": "https://www.saba.ye/en/news3471866.htm"
+            }
+        ],
+        "eng-10552944": [
+            {
+                "title": "Oman plans 300 - 400km hydrogen pipeline by 2030",
+                "url": "https://www.zawya.com/en/economy/gcc/oman-plans-300-400km-hydrogen-pipeline-by-2030-qo86xfsx"
+            }
+        ],
+        "eng-10554070": [
+            {
+                "title": "This game-changing company has cracked the code on $0 solar panel installations  --  here's how to tap into major savings",
+                "url": "https://www.thecooldown.com/green-home/leasingsolar-panels-homeowners-palmetto/"
+            }
+        ],
+        "eng-10558439": [
+            {
+                "title": "Amazon rocket launch, Atlas V liftoff from Cape Canaveral may be seen in Vero Beach, Fort Pierce",
+                "url": "https://eu.tcpalm.com/story/news/2025/04/27/amazon-rocket-launch-florida-canaveral-vero-beach-fort-pierce-bezos/83266060007/"
+            }
+        ],
+        "rus-1869008": [
+            {
+                "title": "Израиль заявил о перехвате запущенной из Йемена ракеты",
+                "url": "https://tass.ru/mezhdunarodnaya-panorama/23789247"
+            }
+        ],
+        "eng-10550861": [
+            {
+                "title": "Camila Cabello mocks Katy Perry for flying to space to promote her...",
+                "url": "https://nypost.com/2025/04/24/entertainment/camila-cabello-mocks-katy-perry-for-flying-to-space-to-promote-new-tour/"
+            }
+        ],
+        "eng-10559411": [
+            {
+                "title": "Thousands of UK deaths per year may be linked to ultra-processed foods - study",
+                "url": "https://ca.news.yahoo.com/thousands-uk-deaths-per-may-040500046.html"
+            }
+        ],
+        "eng-10551857": [
+            {
+                "title": "Trump to offer Saudi Arabia RTX, Lockheed Martin arms package",
+                "url": "https://www.jpost.com/international/article-851463"
+            }
+        ],
+        "eng-10550285": [
+            {
+                "title": "Missile That Killed Eight in Russian Strike on Kyiv Was N.Korean, Kyiv Source Says",
+                "url": "https://www.usnews.com/news/world/articles/2025-04-24/missile-that-killed-eight-in-russian-strike-on-kyiv-was-n-korean-kyiv-source-says"
+            }
+        ],
+        "eng-10557760": [
+            {
+                "title": "Indian Navy carries out anti-ship firing drills",
+                "url": "https://www.newsdrum.in/national/indian-navy-carries-out-anti-ship-firing-drills-9006534"
+            }
+        ],
+        "rus-1870270": [
+            {
+                "title": "Украина готова помочь Европе в восстановлении энергосетей - Галущенко | УНН",
+                "url": "https://unn.ua/ru/news/ukraina-gotova-pomoch-yevrope-v-vosstanovlenii-energosetei-galushchenko"
+            }
+        ],
+        "eng-10549468": [
+            {
+                "title": "Video: Navy warship conducts missile test in Arabian Sea",
+                "url": "https://www.indiatoday.in/india/story/video-indian-navy-warship-conducts-destroyer-ins-surat-missile-test-in-arabian-sea-2713976-2025-04-24"
+            }
+        ],
+        "eng-10552443": [
+            {
+                "title": "A Thai police plane crashes in the sea, killing all 6 on board",
+                "url": "https://www.winnipegfreepress.com/world/2025/04/24/a-thai-police-plane-crashes-in-the-sea-killing-all-6-on-board"
+            }
+        ],
+        "eng-10544948": [
+            {
+                "title": "Missile Intercepted Over Israel Amid Yemen Tensions | Law-Order",
+                "url": "https://www.devdiscourse.com/article/law-order/3355058-missile-intercepted-over-israel-amid-yemen-tensions"
+            }
+        ],
+        "spa-3822207": [
+            {
+                "title": "Shell venderá sus activos en Colombia y dejará de ser socia de Ecopetrol en gas",
+                "url": "https://www.larepublica.co/empresas/la-petrolera-shell-dejara-de-ser-socia-de-ecopetrol-tras-el-anuncio-de-su-salida-del-pais-4117948"
+            }
+        ],
+        "rus-1869146": [
+            {
+                "title": "В Польше заявили о нарушении воздушного пространства российским самолетом",
+                "url": "https://news.rambler.ru/army/54575990-v-polshe-zayavili-o-narushenii-vozdushnogo-prostranstva-rossiyskim-samoletom/"
+            }
+        ],
+        "eng-10545384": [
+            {
+                "title": "Great British Energy - No2NuclearPower",
+                "url": "https://www.no2nuclearpower.org.uk/news/great-british-energy-23-4-25/"
+            }
+        ],
+        "eng-10545586": [
+            {
+                "title": "China-led lunar base to include nuclear power plant on moon's surface, space official",
+                "url": "https://economictimes.indiatimes.com/news/international/global-trends/china-led-lunar-base-to-include-nuclear-power-plant-on-moons-surface-space-official/articleshow/120545290.cms"
+            }
+        ],
+        "eng-10550529": [
+            {
+                "title": "Louisiana wants to pave the way for small nuclear reactors, an untested technology in the U.S.",
+                "url": "https://www.ktbs.com/news/louisiana/louisiana-wants-to-pave-the-way-for-small-nuclear-reactors-an-untested-technology-in-the/article_1ddd4272-e520-5fff-9a29-4e630e37d3fb.html"
+            }
+        ],
+        "eng-10556549": [
+            {
+                "title": "Driver injured as truck plunges off Lagos bridge",
+                "url": "https://punchng.com/driver-injured-as-truck-plunges-off-lagos-bridge/"
+            }
+        ],
+        "eng-10557584": [
+            {
+                "title": "US deploys NMESIS missile system during Balikatan 2025",
+                "url": "https://www.gmanetwork.com/news/topstories/nation/944101/us-deploys-nmesis-missile-system-during-balikatan-2025/story/"
+            }
+        ],
+        "eng-10543532": [
+            {
+                "title": "Homeowner sparks heated debate after criticizing in-laws' outdated HVAC: 'I couldn't take it'",
+                "url": "https://www.thecooldown.com/green-home/gas-furnace-vs-heat-pump-reddit/"
+            }
+        ],
+        "eng-10544382": [
+            {
+                "title": "Sam Altman steps down as Oklo board chair, freeing nuclear startup to work with more AI companies",
+                "url": "https://www.nbcboston.com/news/business/money-report/sam-altman-steps-down-as-oklo-board-chair-freeing-nuclear-startup-to-work-with-more-ai-companies/3692988/"
+            }
+        ],
+        "eng-10542656": [
+            {
+                "title": "NOVAGOLD Resources and Paulson Advisers Announce $1 Billion Transaction to Acquire 50% of the Donlin Gold Project From Barrick",
+                "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/1124-tsx/ng/178736-novagold-and-paulson-advisers-announce-1-billion-transaction-to-acquire-50-of-the-donlin-gold-project-from-barrick.html"
+            }
+        ],
+        "eng-10550977": [
+            {
+                "title": "NASA Orbiter Sees Curiosity Rover's Journey to Next Site",
+                "url": "https://www.miragenews.com/nasa-orbiter-sees-curiosity-rovers-journey-to-1449618/"
+            }
+        ],
+        "eng-10550438": [
+            {
+                "title": "9-hour power outage in parts of Gauteng on Friday",
+                "url": "https://www.thesouthafrican.com/news/9-hour-power-outage-in-parts-of-gauteng-on-friday-2/"
+            }
+        ],
+        "eng-10548545": [
+            {
+                "title": "Water Woes: Opelousas Low Pressure & Boil Advisory",
+                "url": "https://www.kadn.com/news/local/water-woes-opelousas-low-pressure-boil-advisory/article_9faf2b00-b490-11ee-8dd9-1b2d882d8b79.html"
+            }
+        ],
+        "eng-10550134": [
+            {
+                "title": "Stellantis and Factorial Energy Reach Key Milestone in Solid-State Battery Development",
+                "url": "https://www.manilatimes.net/2025/04/24/tmt-newswire/globenewswire/stellantis-and-factorial-energy-reach-key-milestone-in-solid-state-battery-development/2098552"
+            }
+        ],
+        "eng-10560299": [
+            {
+                "title": "Start a Bitcoin Miner with Dogecoin (DOGE) to Earn $5700 a Day | Bitcoinist.com",
+                "url": "https://bitcoinist.com/start-bitcoin-miner-with-dogecoin-doge-to-earn-5700-a-day/"
+            }
+        ],
+        "eng-10545409": [
+            {
+                "title": "Udangudi power plants to be commissioned by the end of 2025, says Electricity Minister",
+                "url": "https://www.thehindu.com/news/cities/chennai/udangudi-power-plants-to-be-commissioned-by-the-end-of-2025-says-electricity-minister/article69478696.ece"
+            }
+        ],
+        "eng-10559643": [
+            {
+                "title": "Drone attack on Russian city of Bryansk kills civilian, leaves another injured",
+                "url": "https://tass.com/emergencies/1950161"
+            }
+        ],
+        "eng-10545097": [
+            {
+                "title": "Pakistani Astronauts Set for Historic Journey to China's Space Station | Science-Environment",
+                "url": "https://www.devdiscourse.com/article/science-environment/3355132-pakistani-astronauts-set-for-historic-journey-to-chinas-space-station"
+            }
+        ],
+        "eng-10545871": [
+            {
+                "title": "SpaceX launches Bandwagon-3 mission, European re-entry capsule",
+                "url": "https://www.newsr.in/n/Science/1zs54dahoj/SpaceX-launches-Bandwagon-mission-European-re-entry.htm"
+            }
+        ],
+        "eng-10542513": [
+            {
+                "title": "Tinubu Abandons Nigeria's Electricity Challenges, Approves N10bn Solar Power For Aso Rock - OsunDefender",
+                "url": "https://osundefender.com/tinubu-abandons-nigerias-electricity-challenges-approves-n10bn-solar-power-for-aso-rock/"
+            }
+        ],
+        "eng-10548824": [
+            {
+                "title": "Trump emergency move aims to cut approval times for energy projects...",
+                "url": "https://www.dailymail.co.uk/wires/reuters/article-14641999/Trump-emergency-aims-cut-approval-times-energy-projects-28-days.html"
+            }
+        ],
+        "eng-10561461": [
+            {
+                "title": "Trump administration allows temporary sales of summertime...",
+                "url": "https://www.dailymail.co.uk/wires/reuters/article-14656557/Trump-administration-allows-temporary-sales-summertime-higher-ethanol-fuel.html"
+            }
+        ],
+        "eng-10551703": [
+            {
+                "title": "USDA withdraws a plan to limit salmonella levels in raw poultry",
+                "url": "https://www.clickorlando.com/business/2025/04/24/usda-withdraws-a-plan-to-limit-salmonella-levels-in-raw-poultry/"
+            }
+        ],
+        "eng-10545838": [
+            {
+                "title": "UAE's greenlights design for first hybrid heliport at Zayed Port",
+                "url": "https://www.gulftoday.ae/news/2025/04/23/uaes-greenlights-design-for-first-hybrid-heliport-at-zayed-port"
+            }
+        ]
+    }
+}

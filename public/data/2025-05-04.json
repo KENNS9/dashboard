@@ -1,0 +1,183 @@
+{
+  "totalNews": 6174,
+  "totalPublishers": 89,
+  "totalEvents": 50,
+  "distributionChart": [
+    {
+      "title": "Iran port explosion: Mourning turns to anger after blast kills 40",
+      "articleCount": 2383,
+      "percentage": "68.89%",
+      "dateTimePub": "2025-04-26T14:49:03Z",
+      "url": "https://www.dailymail.co.uk/news/article-14650603/Iran-explosion-people-killed-injured.html"
+    },
+    {
+      "title": "Eight artificial dyes will be phased out of US food supply, Health Secretary RFK Jr. says",
+      "articleCount": 368,
+      "percentage": "10.64%",
+      "dateTimePub": "2025-04-21T16:46:03Z",
+      "url": "https://edition.cnn.com/2025/04/21/health/food-dye-removed-hhs-wellness/index.html"
+    },
+    {
+      "title": "North Korean leader Kim Jong Un touts new naval destroyer, blames US for tensions",
+      "articleCount": 297,
+      "percentage": "8.59%",
+      "dateTimePub": "2025-04-25T10:31:51Z",
+      "url": "https://baijiahao.baidu.com/s?id=1830358084505375087"
+    },
+    {
+      "title": "China launches three new astronauts to its space station",
+      "articleCount": 224,
+      "percentage": "6.48%",
+      "dateTimePub": "2025-04-23T05:28:22Z",
+      "url": "https://www.yahoo.com/news/veteran-chinese-astronaut-lead-fresh-052822095.html"
+    },
+    {
+      "title": "Former Isro chairman K Kasturirangan dies in Bengaluru at 84",
+      "articleCount": 187,
+      "percentage": "5.41%",
+      "dateTimePub": "2025-04-25T08:04:33Z",
+      "url": "https://telanganatoday.com/former-isro-chief-k-kasturirangan-dies-at-84"
+    },
+    {
+      "title": "A Good Day For The Navy",
+      "articleCount": 142,
+      "percentage": "0%",
+      "dateTimePub": "2025-04-25T03:31:00Z",
+      "url": "https://english.alarabiya.net/News/middle-east/2025/04/25/us-says-blast-near-yemen-unesco-world-heritage-site-caused-by-houthi-missile"
+    },
+    {
+      "title": "Affordable, Reliable, Clean Scorecard: Natural Gas Is Tops, Wind And Solar Are The Worst",
+      "articleCount": 133,
+      "percentage": "0%",
+      "dateTimePub": "2025-04-22T12:11:22Z",
+      "url": "https://www.eurekalert.org/news-releases/1081210"
+    },
+    {
+      "title": "US opposes 'dangerous' anti-fossil fuel policies at global summit",
+      "articleCount": 130,
+      "percentage": "0%",
+      "dateTimePub": "2025-04-23T03:29:29Z",
+      "url": "https://www.unitedkingdomnews.net/news/278181625/energy-security-is-being-used-to-justify-more-fossil-fuels-but-this-will-only-make-us-less-secure"
+    },
+    {
+      "title": "Black Hawk pilot failed to heed flight instructor in moments before plane collision over DC: report",
+      "articleCount": 109,
+      "percentage": "0%",
+      "dateTimePub": "2025-04-27T09:04:05Z",
+      "url": "https://www.nytimes.com/2025/04/27/us/politics/takeaways-investigation-airport-collision.html"
+    },
+    {
+      "title": "World Earth Day: Gujarat companies lead renewable energy shift - The Times of India",
+      "articleCount": 105,
+      "percentage": "0%",
+      "dateTimePub": "2025-04-21T09:25:25Z",
+      "url": "https://www.raillynews.com/2025/04/Is-artificial-intelligence-the-hidden-enemy-that-is-consuming-our-world/"
+    }
+  ],
+  "geoMapChart": [
+    {
+      "country": "United Kingdom",
+      "articleCount": 1182
+    },
+    {
+      "country": "Unknown",
+      "articleCount": 1981
+    },
+    {
+      "country": "Luxembourg",
+      "articleCount": 239
+    },
+    {
+      "country": "Azerbaijan",
+      "articleCount": 327
+    },
+    {
+      "country": "Italy",
+      "articleCount": 65
+    },
+    {
+      "country": "Croatia",
+      "articleCount": 31
+    },
+    {
+      "country": "United States",
+      "articleCount": 1226
+    },
+    {
+      "country": "Russia",
+      "articleCount": 121
+    },
+    {
+      "country": "Chile",
+      "articleCount": 20
+    },
+    {
+      "country": "France",
+      "articleCount": 14
+    },
+    {
+      "country": "Turkey",
+      "articleCount": 29
+    },
+    {
+      "country": "Germany",
+      "articleCount": 20
+    },
+    {
+      "country": "Ukraine",
+      "articleCount": 25
+    },
+    {
+      "country": "India",
+      "articleCount": 482
+    },
+    {
+      "country": "Spain",
+      "articleCount": 9
+    },
+    {
+      "country": "Yemen",
+      "articleCount": 30
+    },
+    {
+      "country": "Argentina",
+      "articleCount": 9
+    },
+    {
+      "country": "Brazil",
+      "articleCount": 8
+    },
+    {
+      "country": "United Arab Emirates",
+      "articleCount": 85
+    },
+    {
+      "country": "Israel",
+      "articleCount": 70
+    },
+    {
+      "country": "Peru",
+      "articleCount": 13
+    },
+    {
+      "country": "Canada",
+      "articleCount": 53
+    },
+    {
+      "country": "Saudi Arabia",
+      "articleCount": 10
+    },
+    {
+      "country": "Nigeria",
+      "articleCount": 43
+    },
+    {
+      "country": "Philippines",
+      "articleCount": 42
+    },
+    {
+      "country": "South Africa",
+      "articleCount": 40
+    }
+  ]
+}
