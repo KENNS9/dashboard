@@ -1,9 +1,34 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { BiCog, BiLogOut } from "react-icons/bi";
 import "./popUp.css";
+import Profile from "../Profile/profile";
+import avatarList from "../../assets/avatarList"; // tambahkan ini
 
 const ProfilePopup = ({ isOpen, onClose }) => {
   const popupRef = useRef(null);
+  const navigate = useNavigate();
+
+  const [showProfileOpen, setProfileOpen] = useState(false);
+  const [avatar, setAvatar] = useState(""); // tambahkan state avatar
+
+  const handleProfileClose = () => {
+    const updatedAvatar = localStorage.getItem("selectedAvatar");
+    setAvatar(updatedAvatar);
+    setProfileOpen(false);
+  };
+
+  useEffect(() => {
+    let storedAvatar = localStorage.getItem("selectedAvatar");
+
+    if (!storedAvatar) {
+      const randomAvatar = avatarList[Math.floor(Math.random() * avatarList.length)];
+      localStorage.setItem("selectedAvatar", randomAvatar);
+      storedAvatar = randomAvatar;
+    }
+
+    setAvatar(storedAvatar);
+  }, []);
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -14,8 +39,6 @@ const ProfilePopup = ({ isOpen, onClose }) => {
 
     if (isOpen) {
       document.addEventListener("mousedown", handleClickOutside);
-    } else {
-      document.removeEventListener("mousedown", handleClickOutside);
     }
 
     return () => {
@@ -26,14 +49,20 @@ const ProfilePopup = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
   return (
-    <div ref={popupRef} className="popup">
+    <div ref={popupRef} className="popup-profile">
       <h4>My Profile</h4>
-      <div className="popup-item">
-        <BiCog className="popup-icon" /> Settings
+      <div className="avatar-preview">
+        <img src={avatar} alt="Current Avatar" />
       </div>
-      <div className="popup-item">
-        <BiLogOut className="popup-icon" /> Log out
+      <div className="profile-item" onClick={() => setProfileOpen(true)}>
+        <BiCog size={20} /> Settings
       </div>
+      <div className="profile-item" onClick={() => navigate("/")}>
+        <BiLogOut size={20} /> Log out
+      </div>
+
+      {/* Popup Profile Settings */}
+      <Profile isOpen={showProfileOpen} onClose={handleProfileClose} />
     </div>
   );
 };

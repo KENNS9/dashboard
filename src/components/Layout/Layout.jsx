@@ -4,13 +4,22 @@ import Sidebar from "../SideBar/sidebar";
 import "./Layout.css";
 
 const Layout = ({ children }) => {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
+
   return (
-    <div className="layout">
+    <div className={`layout ${isSidebarOpen ? "sidebar-open" : "sidebar-closed"}`}>
       <Navbar />
       <div className="content-wrapper">
-        <Sidebar />
+        <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
         <div className="main-content">
-          {children}
+          {/* Tambahkan isSidebarOpen ke semua children */}
+          {React.Children.map(children, (child) =>
+            React.cloneElement(child, { isSidebarOpen })
+          )}
         </div>
       </div>
     </div>

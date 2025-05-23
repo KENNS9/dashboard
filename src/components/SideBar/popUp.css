@@ -1,4 +1,4 @@
-.popup {
+.popup-profile {
   position: absolute;
   bottom: 80px;
   left: 10px;
@@ -7,24 +7,31 @@
   border-radius: 10px;
   padding: 10px;
   width: 225px;
-  z-index: 1000;
+  z-index: 1002;
   color: #485159;
 }
 
-.popup h4{
+.popup-profile h4{
   font-weight: bold;
 }
 
-.popup-item {
-  padding: 8px;
-  cursor: pointer;
+.profile-item {
   display: flex;
   align-items: center;
-  gap: 8px;
-  color: #485159;
+  gap: 10px;
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 15px;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
 }
 
-.popup-item:hover {
-  background: #f0f0f0;
-  border-radius: 5px;
+.profile-item:hover {
+  background-color: #f0f0f0;
+  padding-left: 10px;
+}
+
+.popup-icon {
+  font-size: 18px;
 }

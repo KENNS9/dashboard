@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: fixed;
   width: 250px;
   height: calc(100vh - 60px);
   background-color: white;
@@ -11,6 +12,7 @@
   margin-top: 60px;
   left: 0;
   overflow: hidden;
+  z-index: 100;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -103,6 +105,33 @@
   padding: 5px;
 }
 
+.nav .nav-item {
+  margin: 4px 0;
+}
+
+
+.sidebar.closed .nav-link-wrapper {
+  justify-content: center;
+  padding: 12px 0;
+}
+
+.nav-link-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.nav-link-wrapper .nav-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-grow: 1;
+  text-decoration: none;
+  color: inherit;
+}
+
 .arrow {
   margin-left: auto;
   transition: transform 0.3s;
@@ -128,7 +157,6 @@
 }
 
 .profile-section {
-  /* position: fixed; */
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -136,7 +164,7 @@
   left: 0;
   transition: opacity 0.3s ease, transform 0.3s ease;
   justify-content: flex-start;
-  width: 250px;  /* Tambahkan ini agar lebarnya sesuai dengan sidebar */
+  width: 250px;
   padding: 10px 15px; 
   position: absolute;
   bottom: 0; 

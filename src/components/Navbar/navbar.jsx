@@ -2,22 +2,35 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./navbar.css";
 import { FaHome, FaCog } from "react-icons/fa";
-import avatarList from "../../assets/avatarList";
+import Profile from "../Profile/profile";
 
 const Navbar = () => {
   const [avatar, setAvatar] = useState("");
   const navigate = useNavigate();
+  const [showProfileOpen, setProfileOpen] = useState(false);
+
+  const handleProfileClose = () => {
+    const updatedAvatar = localStorage.getItem("selectedAvatar");
+    setAvatar(updatedAvatar);
+    setProfileOpen(false);
+  };
 
   useEffect(() => {
-    let storedAvatar = localStorage.getItem("selectedAvatar");
+    const storedAvatar = localStorage.getItem("selectedAvatar");
+    setAvatar(storedAvatar || "");
+  }, []);
 
-    if (!storedAvatar) {
-      const randomAvatar = avatarList[Math.floor(Math.random() * avatarList.length)];
-      localStorage.setItem("selectedAvatar", randomAvatar);
-      storedAvatar = randomAvatar;
-    }
+  useEffect(() => {
+    const updateAvatar = () => {
+      const newAvatar = localStorage.getItem("selectedAvatar");
+      setAvatar(newAvatar || "");
+    };
 
-    setAvatar(storedAvatar);
+    window.addEventListener("avatarChanged", updateAvatar);
+
+    return () => {
+      window.removeEventListener("avatarChanged", updateAvatar);
+    };
   }, []);
 
   return (
@@ -29,19 +42,20 @@ const Navbar = () => {
       </div>
 
       <div className="menu">
-        <button className="icon-btn">
+        <button className="icon-btn" onClick={() => navigate("/daily")}>
           <FaHome />
         </button>
         <button className="icon-btn">
           <FaCog />
         </button>
         <img
-          src={avatar}
+          src={avatar || "/default-avatar.png"}
           alt="User Avatar"
           className="user-avatar"
-          onClick={() => navigate("/profile-settings")}
+          onClick={() => setProfileOpen(true)}
         />
       </div>
+      <Profile isOpen={showProfileOpen} onClose={handleProfileClose} />
     </nav>
   );
 };

@@ -1,7 +1,7 @@
 .layout {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .content-wrapper {
@@ -13,8 +13,10 @@
   flex-grow: 1;
   padding: 20px;
   transition: margin-left 0.3s;
+  margin-left: 60px;
 }
 
 .main-content.full-width {
   margin-left: 0;
 }
+  
