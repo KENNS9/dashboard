@@ -12,14 +12,10 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh; 
-  padding: 20px;
-  background-color: #F6F7FB;
   width: 100%;
 }
 
 .header-content {
-  background-color: #F6F7FB;
-  padding: 20px;
   margin-bottom: 10px;
   margin-top: 60px;
   box-sizing: border-box;
@@ -39,9 +35,3 @@ body {
   color: #666;
 }
 
-@media (max-width: 768px) {
-  .stat-card {
-    flex: 1 1 100%; 
-    max-width: 100%;
-  }
-}
