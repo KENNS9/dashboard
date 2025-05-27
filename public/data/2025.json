@@ -1,0 +1,211 @@
+{
+    "totalNews": 1234567,
+    "totalPublishers": 10000,
+    "totalEvents": 8000,
+    "distributionChart": [
+      {
+        "title": "Annual Economic Outlook 2025",
+        "articleCount": 250000,
+        "percentage": "20.25%"
+      },
+      {
+        "title": "Global Tech Innovations",
+        "articleCount": 180000,
+        "percentage": "14.58%"
+      },
+      {
+        "title": "Environmental Sustainability Initiatives",
+        "articleCount": 150000,
+        "percentage": "12.15%"
+      },
+      {
+        "title": "Political Landscape Changes",
+        "articleCount": 120000,
+        "percentage": "9.72%"
+      },
+      {
+        "title": "Healthcare Advancements",
+        "articleCount": 100000,
+        "percentage": "8.10%"
+      },
+      {
+        "title": "Others",
+        "articleCount": 434567,
+        "percentage": "35.20%"
+      }
+    ],
+    "geoMapChart": [
+      {
+        "country": "Indonesia",
+        "countryCode": "id",
+        "articleCount": 350000
+      },
+      {
+        "country": "United States",
+        "countryCode": "us",
+        "articleCount": 280000
+      },
+      {
+        "country": "China",
+        "countryCode": "cn",
+        "articleCount": 200000
+      },
+      {
+        "country": "India",
+        "countryCode": "in",
+        "articleCount": 150000
+      },
+      {
+        "country": "Japan",
+        "countryCode": "jp",
+        "articleCount": 100000
+      },
+      {
+        "country": "Germany",
+        "countryCode": "de",
+        "articleCount": 50000
+      },
+      {
+        "country": "United Kingdom",
+        "countryCode": "gb",
+        "articleCount": 40000
+      },
+      {
+        "country": "Australia",
+        "countryCode": "au",
+        "articleCount": 30000
+      },
+      {
+        "country": "Brazil",
+        "countryCode": "br",
+        "articleCount": 25000
+      },
+      {
+        "country": "Canada",
+        "countryCode": "ca",
+        "articleCount": 20000
+      }
+    ],
+    "yearlyKeywordData": [
+      {
+        "month": 1,
+        "data": [
+          {"title": "Ekonomi Global", "count": 1200},
+          {"title": "Teknologi AI", "count": 800},
+          {"title": "Lingkungan", "count": 600},
+          {"title": "Otomotif", "count": 450},
+          {"title": "Politik Nasional", "count": 700}
+        ]
+      },
+      {
+        "month": 2,
+        "data": [
+          {"title": "Teknologi AI", "count": 1500},
+          {"title": "Ekonomi Global", "count": 1100},
+          {"title": "Startup", "count": 750},
+          {"title": "Olahraga", "count": 500},
+          {"title": "Pendidikan", "count": 650}
+        ]
+      },
+      {
+        "month": 3,
+        "data": [
+          {"title": "Lingkungan", "count": 1300},
+          {"title": "Ekonomi Global", "count": 1000},
+          {"title": "Kesehatan", "count": 900},
+          {"title": "Investasi", "count": 600},
+          {"title": "Food & Beverage", "count": 550}
+        ]
+      },
+      {
+        "month": 4,
+        "data": [
+          {"title": "Politik Nasional", "count": 1800},
+          {"title": "Ekonomi Global", "count": 950},
+          {"title": "Teknologi AI", "count": 1200},
+          {"title": "Kriminalitas", "count": 800},
+          {"title": "Pariwisata", "count": 700}
+        ]
+      },
+      {
+        "month": 5,
+        "data": [
+          {"title": "Ekonomi Global", "count": 1300},
+          {"title": "Kesehatan", "count": 1100},
+          {"title": "E-Commerce", "count": 850},
+          {"title": "Festival", "count": 600},
+          {"title": "Infrastruktur", "count": 750}
+        ]
+      },
+      {
+        "month": 6,
+        "data": [
+          {"title": "Teknologi AI", "count": 1600},
+          {"title": "Lingkungan", "count": 1000},
+          {"title": "Olahraga", "count": 900},
+          {"title": "Gaya Hidup", "count": 700},
+          {"title": "Properti", "count": 650}
+        ]
+      },
+      {
+        "month": 7,
+        "data": [
+          {"title": "Ekonomi Global", "count": 1400},
+          {"title": "Politik Nasional", "count": 1300},
+          {"title": "Pendidikan", "count": 1000},
+          {"title": "Bencana Alam", "count": 800},
+          {"title": "Energi Terbarukan", "count": 700}
+        ]
+      },
+      {
+        "month": 8,
+        "data": [
+          {"title": "Kesehatan", "count": 1500},
+          {"title": "Teknologi AI", "count": 1100},
+          {"title": "Industri Kreatif", "count": 950},
+          {"title": "Seni & Budaya", "count": 700},
+          {"title": "Perdagangan Internasional", "count": 800}
+        ]
+      },
+      {
+        "month": 9,
+        "data": [
+          {"title": "Lingkungan", "count": 1450},
+          {"title": "Ekonomi Global", "count": 1250},
+          {"title": "Startup", "count": 1000},
+          {"title": "Pertanian", "count": 750},
+          {"title": "Transportasi", "count": 600}
+        ]
+      },
+      {
+        "month": 10,
+        "data": [
+          {"title": "Politik Nasional", "count": 1600},
+          {"title": "Teknologi AI", "count": 1300},
+          {"title": "E-Commerce", "count": 1100},
+          {"title": "Keuangan", "count": 900},
+          {"title": "Pariwisata", "count": 850}
+        ]
+      },
+      {
+        "month": 11,
+        "data": [
+          {"title": "Ekonomi Global", "count": 1700},
+          {"title": "Kesehatan", "count": 1400},
+          {"title": "Inovasi", "count": 1200},
+          {"title": "Hiburan", "count": 950},
+          {"title": "Pekerjaan", "count": 800}
+        ]
+      },
+      {
+        "month": 12,
+        "data": [
+          {"title": "Teknologi AI", "count": 1800},
+          {"title": "Ekonomi Global", "count": 1500},
+          {"title": "Liburan", "count": 1300},
+          {"title": "Tren 2026", "count": 1000},
+          {"title": "CSR", "count": 900}
+        ]
+      }
+    ]
+  }

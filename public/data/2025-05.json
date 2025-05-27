@@ -1,0 +1,43 @@
+{
+    "totalNews": 150000,
+    "totalPublishers": 1500,
+    "totalEvents": 1200,
+    "distributionChart": [],
+    "geoMapChart": [],
+    "monthlyKeywordData": [
+      {
+        "week": 1,
+        "data": [
+          {"title": "Keyword A", "count": 100},
+          {"title": "Keyword B", "count": 80}
+        ]
+      },
+      {
+        "week": 2,
+        "data": [
+          {"title": "Keyword A", "count": 120},
+          {"title": "Keyword C", "count": 90}
+        ]
+      },
+      {
+        "week": 3,
+        "data": [
+          {"title": "Keyword B", "count": 110},
+          {"title": "Keyword D", "count": 70}
+        ]
+      },
+      {
+        "week": 4,
+        "data": [
+          {"title": "Keyword A", "count": 90},
+          {"title": "Keyword C", "count": 100}
+        ]
+      },
+      {
+        "week": 5,
+        "data": [
+          {"title": "Keyword E", "count": 50}
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,346 @@
+{
+    "totalNews": 16174,
+    "totalPublishers": 188,
+    "totalEvents": 90,
+    "distributionChart": [
+      {
+        "title": "Iran port explosion: Mourning turns to anger after blast kills 40",
+        "articleCount": 2383,
+        "percentage": "58.44%",
+        "dateTimePub": "2025-04-26T14:49:03Z",
+        "url": "https://www.dailymail.co.uk/news/article-14650603/Iran-explosion-people-killed-injured.html"
+      },
+      {
+        "title": "Eight artificial dyes will be phased out of US food supply, Health Secretary RFK Jr. says",
+        "articleCount": 368,
+        "percentage": "9.02%",
+        "dateTimePub": "2025-04-21T16:46:03Z",
+        "url": "https://edition.cnn.com/2025/04/21/health/food-dye-removed-hhs-wellness/index.html"
+      },
+      {
+        "title": "North Korean leader Kim Jong Un touts new naval destroyer, blames US for tensions",
+        "articleCount": 297,
+        "percentage": "7.28%",
+        "dateTimePub": "2025-04-25T10:31:51Z",
+        "url": "https://baijiahao.baidu.com/s?id=1830358084505375087"
+      },
+      {
+        "title": "China launches three new astronauts to its space station",
+        "articleCount": 224,
+        "percentage": "5.49%",
+        "dateTimePub": "2025-04-23T05:28:22Z",
+        "url": "https://www.yahoo.com/news/veteran-chinese-astronaut-lead-fresh-052822092.html"
+      },
+      {
+        "title": "Former Isro chairman K Kasturirangan dies in Bengaluru at 84",
+        "articleCount": 187,
+        "percentage": "4.59%",
+        "dateTimePub": "2025-04-25T08:04:33Z",
+        "url": "https://telanganatoday.com/former-isro-chief-k-kasturirangan-dies-at-84"
+      },
+      {
+        "title": "A Good Day For The Navy",
+        "articleCount": 142,
+        "percentage": "3.48%",
+        "dateTimePub": "2025-04-25T03:31:00Z",
+        "url": "https://english.alarabiya.net/News/middle-east/2025/04/25/us-says-blast-near-yemen-unesco-world-heritage-site-caused-by-houthi-missile"
+      },
+      {
+        "title": "Affordable, Reliable, Clean Scorecard: Natural Gas Is Tops, Wind And Solar Are The Worst",
+        "articleCount": 133,
+        "percentage": "3.26%",
+        "dateTimePub": "2025-04-22T12:11:22Z",
+        "url": "https://www.eurekalert.org/news-releases/1081210"
+      },
+      {
+        "title": "US opposes 'dangerous' anti-fossil fuel policies at global summit",
+        "articleCount": 130,
+        "percentage": "3.19%",
+        "dateTimePub": "2025-04-23T03:29:29Z",
+        "url": "https://www.unitedkingdomnews.net/news/278181625/energy-security-is-being-used-to-justify-more-fossil-fuels-but-this-will-only-make-us-less-secure"
+      },
+      {
+        "title": "Black Hawk pilot failed to heed flight instructor in moments before plane collision over DC: report",
+        "articleCount": 109,
+        "percentage": "2.67%",
+        "dateTimePub": "2025-04-27T09:04:05Z",
+        "url": "https://www.nytimes.com/2025/04/27/us/politics/takeaways-investigation-airport-collision.html"
+      },
+      {
+        "title": "World Earth Day: Gujarat companies lead renewable energy shift - The Times of India",
+        "articleCount": 105,
+        "percentage": "2.57%",
+        "dateTimePub": "2025-04-21T09:25:25Z",
+        "url": "https://www.raillynews.com/2025/04/Is-artificial-intelligence-the-hidden-enemy-that-is-consuming-our-world/"
+      }
+    ],
+    "geoMapChart": [
+      {
+        "country": "United Kingdom",
+        "countryCode": "gb",
+        "articleCount": 1312
+      },
+      {
+        "country": "China",
+        "countryCode": "cn",
+        "articleCount": 450
+      },
+      {
+        "country": "Luxembourg",
+        "countryCode": "lu",
+        "articleCount": 336
+      },
+      {
+        "country": "Azerbaijan",
+        "countryCode": "az",
+        "articleCount": 327
+      },
+      {
+        "country": "Portugal",
+        "countryCode": "pt",
+        "articleCount": 127
+      },
+      {
+        "country": "Germany",
+        "countryCode": "de",
+        "articleCount": 92
+      },
+      {
+        "country": "Ukraine",
+        "countryCode": "ua",
+        "articleCount": 201
+      },
+      {
+        "country": "Italy",
+        "countryCode": "it",
+        "articleCount": 65
+      },
+      {
+        "country": "Serbia",
+        "countryCode": "rs",
+        "articleCount": 20
+      },
+      {
+        "country": "Croatia",
+        "countryCode": "hr",
+        "articleCount": 31
+      },
+      {
+        "country": "United States",
+        "countryCode": "us",
+        "articleCount": 1426
+      },
+      {
+        "country": "India",
+        "countryCode": "in",
+        "articleCount": 646
+      },
+      {
+        "country": "Russia",
+        "countryCode": "ru",
+        "articleCount": 121
+      },
+      {
+        "country": "Chile",
+        "countryCode": "cl",
+        "articleCount": 20
+      },
+      {
+        "country": "France",
+        "countryCode": "fr",
+        "articleCount": 28
+      },
+      {
+        "country": "Turkey",
+        "countryCode": "tr",
+        "articleCount": 149
+      },
+      {
+        "country": "Bosnia and Herzegovina",
+        "countryCode": "ba",
+        "articleCount": 13
+      },
+      {
+        "country": "Saudi Arabia",
+        "countryCode": "sa",
+        "articleCount": 152
+      },
+      {
+        "country": "Spain",
+        "countryCode": "es",
+        "articleCount": 21
+      },
+      {
+        "country": "Yemen",
+        "countryCode": "ye",
+        "articleCount": 30
+      },
+      {
+        "country": "Argentina",
+        "countryCode": "ar",
+        "articleCount": 18
+      },
+      {
+        "country": "Brazil",
+        "countryCode": "br",
+        "articleCount": 23
+      },
+      {
+        "country": "United Arab Emirates",
+        "countryCode": "ae",
+        "articleCount": 116
+      },
+      {
+        "country": "Switzerland",
+        "countryCode": "ch",
+        "articleCount": 18
+      },
+      {
+        "country": "Israel",
+        "countryCode": "il",
+        "articleCount": 70
+      },
+      {
+        "country": "Peru",
+        "countryCode": "pe",
+        "articleCount": 56
+      },
+      {
+        "country": "Canada",
+        "countryCode": "ca",
+        "articleCount": 94
+      },
+      {
+        "country": "Nigeria",
+        "countryCode": "ng",
+        "articleCount": 75
+      },
+      {
+        "country": "Philippines",
+        "countryCode": "ph",
+        "articleCount": 63
+      },
+      {
+        "country": "Australia",
+        "countryCode": "au",
+        "articleCount": 29
+      },
+      {
+        "country": "South Africa",
+        "countryCode": "za",
+        "articleCount": 40
+      },
+      {
+        "country": "Belgium",
+        "countryCode": "be",
+        "articleCount": 5
+      }
+    ],
+    "weeklyKeywordData": [
+      {
+        "day": 1,
+        "data": [
+          { "title": "Generative AI", "count": 120 },
+          { "title": "Metaverse Trends", "count": 80 },
+          { "title": "Web3 Development", "count": 50 },
+          { "title": "Deep Learning", "count": 90 },
+          { "title": "Renewable Energy", "count": 70 },
+          { "title": "Space Exploration", "count": 60 },
+          { "title": "Biotechnology", "count": 40 },
+          { "title": "Electric Vehicles", "count": 100 },
+          { "title": "Quantum AI", "count": 30 },
+          { "title": "Sustainable Tech", "count": 65 }
+        ]
+      },
+      {
+        "day": 2,
+        "data": [
+          { "title": "Generative AI", "count": 130 },
+          { "title": "Cybersecurity Threats", "count": 75 },
+          { "title": "Blockchain Innovation", "count": 55 },
+          { "title": "AI Ethics", "count": 85 },
+          { "title": "Green Technology", "count": 72 },
+          { "title": "Mars Mission", "count": 62 },
+          { "title": "CRISPR Tech", "count": 42 },
+          { "title": "Autonomous Driving", "count": 105 },
+          { "title": "Quantum Computing", "count": 33 },
+          { "title": "Circular Economy", "count": 68 }
+        ]
+      },
+      {
+        "day": 3,
+        "data": [
+          { "title": "AI in Healthcare", "count": 110 },
+          { "title": "VR/AR Market", "count": 85 },
+          { "title": "Decentralized Finance", "count": 60 },
+          { "title": "Neural Networks", "count": 95 },
+          { "title": "Solar Power", "count": 78 },
+          { "title": "Lunar Gateway", "count": 65 },
+          { "title": "Gene Editing", "count": 45 },
+          { "title": "Smart Cities", "count": 98 },
+          { "title": "AI Chips", "count": 38 },
+          { "title": "Climate Tech", "count": 70 }
+        ]
+      },
+      {
+        "day": 4,
+        "data": [
+          { "title": "Large Language Models", "count": 140 },
+          { "title": "Digital Twins", "count": 90 },
+          { "title": "NFTs and Art", "count": 45 },
+          { "title": "Reinforcement Learning", "count": 100 },
+          { "title": "Wind Energy", "count": 80 },
+          { "title": "Asteroid Mining", "count": 58 },
+          { "title": "Synthetic Biology", "count": 48 },
+          { "title": "EV Charging", "count": 110 },
+          { "title": "AI Security", "count": 40 },
+          { "title": "Carbon Capture", "count": 75 }
+        ]
+      },
+      {
+        "day": 5,
+        "data": [
+          { "title": "AI Assistants", "count": 115 },
+          { "title": "Extended Reality (XR)", "count": 95 },
+          { "title": "GameFi", "count": 52 },
+          { "title": "Computer Vision", "count": 92 },
+          { "title": "Geothermal Energy", "count": 73 },
+          { "title": "Space Tourism", "count": 63 },
+          { "title": "Precision Medicine", "count": 50 },
+          { "title": "Battery Technology", "count": 108 },
+          { "title": "AI for Good", "count": 35 },
+          { "title": "Sustainable Fashion", "count": 67 }
+        ]
+      },
+      {
+        "day": 6,
+        "data": [
+          { "title": "Natural Language Processing", "count": 125 },
+          { "title": "Haptic Technology", "count": 70 },
+          { "title": "DAO Governance", "count": 48 },
+          { "title": "Edge AI", "count": 88 },
+          { "title": "Hydrogen Fuel", "count": 76 },
+          { "title": "Satellite Internet", "count": 68 },
+          { "title": "Drug Discovery AI", "count": 53 },
+          { "title": "Hyperloop Tech", "count": 95 },
+          { "title": "AI Regulation", "count": 42 },
+          { "title": "Eco-friendly Materials", "count": 71 }
+        ]
+      },
+      {
+        "day": 7,
+        "data": [
+          { "title": "Explainable AI (XAI)", "count": 150 },
+          { "title": "Virtual Worlds", "count": 100 },
+          { "title": "Metaverse Real Estate", "count": 65 },
+          { "title": "Conversational AI", "count": 105 },
+          { "title": "Smart Grids", "count": 82 },
+          { "title": "Space Mining", "count": 70 },
+          { "title": "Bioinformatics", "count": 55 },
+          { "title": "Flying Cars", "count": 115 },
+          { "title": "Ethical AI", "count": 48 },
+          { "title": "Green Buildings", "count": 78 }
+        ]
+      }
+    ]
+  }
