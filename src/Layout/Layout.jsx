@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Navbar from "../Navbar/navbar";
-import Sidebar from "../SideBar/sidebar";
+import Navbar from "../components/Navbar/navbar";
+import Sidebar from "../components/SideBar/sidebar";
 import "./Layout.css";
 
 const Layout = ({ children }) => {
@@ -16,7 +16,6 @@ const Layout = ({ children }) => {
       <div className="content-wrapper">
         <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
         <div className="main-content">
-          {/* Tambahkan isSidebarOpen ke semua children */}
           {React.Children.map(children, (child) =>
             React.cloneElement(child, { isSidebarOpen })
           )}
