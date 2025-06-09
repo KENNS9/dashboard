@@ -3,56 +3,54 @@ import "chart.js/auto";
 import StatNews from "../ScoreCard/StatNews";
 import StatPub from "../ScoreCard/StatPublishers";
 import StatEvent from "../ScoreCard/StatEvent";
-import SliceDate from "../Slicer/SliceDate";
+import YearlySlicer from "../Slicer/SlicerYearly";
+import TrendingTopic from "../Charts/TrendingTopicVer2";
 import GeoMap from "../Charts/GeoMapGoogle";
 import PieChart from "../Charts/PieChart";
-import TrendingTopic from "../Charts/TrendingTopicVer2";
+import KeywordChart from "../Charts/BarChart";
 
-const DashboardContent = () => {
+const YearlyTechnology = () => {
   const [totalNews, setTotalNews] = useState(0);
   const [totalPub, setTotalPub] = useState(0);
   const [totalEvent, setTotalEvent] = useState(0);
-  const [currentDate, setCurrentDate] = useState("");
+  const [currentYearDisplay, setCurrentYearDisplay] = useState("");
   const [distributionData, setDistributionData] = useState([]);
   const [trendingTopics, setTrendingTopics] = useState([]);
   const [geoMapData, setGeoMapData] = useState([]);
-  const [selectedDate, setSelectedDate] = useState(new Date()); 
-
-  const getFormattedDate = (date) => {
-    const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-    const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-
-    const dayName = days[date.getDay()];
-    const day = date.getDate();
-    const month = months[date.getMonth()];
-    const year = date.getFullYear();
-
-    return `${dayName}, ${day} ${month} ${year}`;
+  const [selectedYear, setSelectedYear] = useState(new Date().getFullYear()); 
+  const [yearlyKeywordData, setYearlyKeywordData] = useState([]); 
+  const getFormattedYear = (year) => {
+    return String(year);
   };
 
   useEffect(() => {
-    setCurrentDate(getFormattedDate(selectedDate));
-  }, [selectedDate]);
+    setCurrentYearDisplay(getFormattedYear(selectedYear));
+  }, [selectedYear]);
 
   // Fetch data
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const formattedDate = selectedDate.toISOString().split('T')[0]; // e.g. 2025-04-19
-        const response = await fetch(`/data/${formattedDate}.json`);
+        const year = selectedYear;
+        
+        // Penamaan file untuk tahunan: YYYY.json (misal: 2025.json)
+        const fileName = `T${year}.json`; 
+        const response = await fetch(`/data/${fileName}`);
         
         if (!response.ok) {
-          console.warn(`File not found or error fetching: /data/${formattedDate}.json. Status: ${response.status}`);
+          console.warn(`File not found or error fetching: /data/${fileName}. Status: ${response.status}`);
           setTotalNews(0);
           setTotalPub(0);
           setTotalEvent(0);
           setDistributionData([]);
           setTrendingTopics([]);
           setGeoMapData([]);
+          setYearlyKeywordData([]);
           return;
         }
         
         const data = await response.json();
+
         setTotalNews(data.totalNews);
         setTotalPub(data.totalPublishers);
         setTotalEvent(data.totalEvents);
@@ -65,7 +63,13 @@ const DashboardContent = () => {
           setDistributionData([]);
           setTrendingTopics([]);
         }
-        
+
+        if (data.yearlyKeywordData) {
+          setYearlyKeywordData(data.yearlyKeywordData);
+        } else {
+          setYearlyKeywordData([]);
+        }
+
       } catch (error) {
         console.error("Error fetching data:", error);
         setTotalNews(0);
@@ -74,36 +78,39 @@ const DashboardContent = () => {
         setDistributionData([]);
         setTrendingTopics([]);
         setGeoMapData([]);
+        setYearlyKeywordData([]);
       }
     };
 
     fetchData();
-  }, [selectedDate]);
+  }, [selectedYear]); 
 
-  const handleDateChange = (date) => {
-    setSelectedDate(date);
-    localStorage.setItem("selectedDate", date.toISOString()); 
+  const handleYearChange = (year) => {
+    setSelectedYear(year); 
+    localStorage.setItem("selectedYear", String(year)); 
   };
 
   return (
-    <div className="dashboard-container">
+    <div>
       <div className="header-content">
-        <h1>Daily Dashboard</h1>
-        <p>{currentDate}</p>
+        <h1>Technology Dashboard</h1> 
+        <p>{currentYearDisplay}</p> 
       </div>
       <div className="p-6 flex gap-10">
         <StatNews title="Total News" value={totalNews} />
         <StatPub title="Publishers" value={totalPub} />
         <StatEvent title="Total Event" value={totalEvent} />
-        <SliceDate
-          title="Date Slicer"
-          selectedDate={selectedDate}
-          onDateChange={handleDateChange}
+        <YearlySlicer 
+          selectedYear={selectedYear}
+          onYearChange={handleYearChange} 
         />
       </div>
       <div className="p-6 flex gap-10">
         <PieChart rawData={distributionData} />
         <TrendingTopic distributionChart={trendingTopics} />
+      </div>
+      <div className="p-6 flex gap-10">
+        <KeywordChart keywordData={yearlyKeywordData} filterType="yearly"/>
       </div>
       <div className="p-6 flex gap-10">
         <GeoMap data={geoMapData} />
@@ -112,4 +119,4 @@ const DashboardContent = () => {
   );
 };
 
-export default DashboardContent;
+export default YearlyTechnology;

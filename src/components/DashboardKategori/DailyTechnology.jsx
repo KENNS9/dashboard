@@ -8,7 +8,7 @@ import GeoMap from "../Charts/GeoMapGoogle";
 import PieChart from "../Charts/PieChart";
 import TrendingTopic from "../Charts/TrendingTopicVer2";
 
-const DashboardContent = () => {
+const DailyTechnology = () => {
   const [totalNews, setTotalNews] = useState(0);
   const [totalPub, setTotalPub] = useState(0);
   const [totalEvent, setTotalEvent] = useState(0);
@@ -38,11 +38,12 @@ const DashboardContent = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const formattedDate = selectedDate.toISOString().split('T')[0]; // e.g. 2025-04-19
-        const response = await fetch(`/data/${formattedDate}.json`);
+        const formattedDate = selectedDate.toISOString().split('T')[0];
+        const fileName = `T${formattedDate}.json`;
+        const response = await fetch(`/data/${fileName}.json`);
         
         if (!response.ok) {
-          console.warn(`File not found or error fetching: /data/${formattedDate}.json. Status: ${response.status}`);
+          console.warn(`File not found or error fetching: /data/${fileName}.json. Status: ${response.status}`);
           setTotalNews(0);
           setTotalPub(0);
           setTotalEvent(0);
@@ -86,9 +87,9 @@ const DashboardContent = () => {
   };
 
   return (
-    <div className="dashboard-container">
+    <div>
       <div className="header-content">
-        <h1>Daily Dashboard</h1>
+        <h1>Technology Dashboard</h1>
         <p>{currentDate}</p>
       </div>
       <div className="p-6 flex gap-10">
@@ -112,4 +113,4 @@ const DashboardContent = () => {
   );
 };
 
-export default DashboardContent;
+export default DailyTechnology;
