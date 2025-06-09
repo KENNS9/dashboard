@@ -3,7 +3,7 @@ import { FaRegBuilding } from "react-icons/fa";
 
 const StatPub = ({ title, value }) => {
   return (
-    <div className="bg-teal-400 text-white w-64 h-28 p-4 rounded-xl flex justify-between items-center shadow-md">
+    <div className="bg-teal-300 text-white w-[311px] h-[98px] p-4  rounded-xl flex justify-between items-center shadow-md">
       <div className="flex flex-col items-start">
         <FaRegBuilding className="text-5xl text-white" />
         <p className="text-base font-bold whitespace-nowrap">{title}</p>
