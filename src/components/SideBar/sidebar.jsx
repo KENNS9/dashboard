@@ -24,7 +24,6 @@ const Sidebar = () => {
     }));
   };
 
-  // Load avatar & listen for avatar changes
   useEffect(() => {
     const loadAvatar = () => {
       const storedAvatar = localStorage.getItem("selectedAvatar");
@@ -71,8 +70,8 @@ const Sidebar = () => {
               </div>
               {openMenus.daily && (
                 <ul className="submenu open">
-                  <li><Link to="/notFound" className="nav-link sub">• Technology</Link></li>
-                  <li><Link to="/notFound" className="nav-link sub">• Business</Link></li>
+                  <li><Link to="/dailyTechnology" className="nav-link sub">• Technology</Link></li>
+                  <li><Link to="/dailyBusiness" className="nav-link sub">• Business</Link></li>
                 </ul>
               )}
             </li>
@@ -90,8 +89,8 @@ const Sidebar = () => {
               </div>
               {openMenus.weekly && (
                 <ul className="submenu open">
-                  <li><Link to="/notFound" className="nav-link sub">• Technology</Link></li>
-                  <li><Link to="/notFound" className="nav-link sub">• Business</Link></li>
+                  <li><Link to="/weeklyTechnology" className="nav-link sub">• Technology</Link></li>
+                  <li><Link to="/weeklyBusiness" className="nav-link sub">• Business</Link></li>
                 </ul>
               )}
             </li>
@@ -109,8 +108,8 @@ const Sidebar = () => {
               </div>
               {openMenus.monthly && (
                 <ul className="submenu open">
-                  <li><Link to="/notFound" className="nav-link sub">• Technology</Link></li>
-                  <li><Link to="/notFound" className="nav-link sub">• Business</Link></li>
+                  <li><Link to="/monthlyTechnology" className="nav-link sub">• Technology</Link></li>
+                  <li><Link to="/monthlyBusiness" className="nav-link sub">• Business</Link></li>
                 </ul>
               )}
             </li>
@@ -128,15 +127,14 @@ const Sidebar = () => {
               </div>
               {openMenus.yearly && (
                 <ul className="submenu open">
-                  <li><Link to="/notFound" className="nav-link sub">• Technology</Link></li>
-                  <li><Link to="/notFound" className="nav-link sub">• Business</Link></li>
+                  <li><Link to="/yearlyTechnology" className="nav-link sub">• Technology</Link></li>
+                  <li><Link to="/yearlyBusiness" className="nav-link sub">• Business</Link></li>
                 </ul>
               )}
             </li>
           </ul>
         </div>
 
-        {/* Profile Section with Avatar */}
         <div className="profile-section" onClick={() => {
           if (isSidebarOpen){
             setIsPopupOpen(!isPopupOpen);

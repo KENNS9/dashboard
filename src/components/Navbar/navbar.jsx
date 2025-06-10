@@ -45,7 +45,7 @@ const Navbar = () => {
         <button className="icon-btn" onClick={() => navigate("/daily")}>
           <FaHome />
         </button>
-        <button className="icon-btn">
+        <button className="icon-btn" onClick={() => navigate("/notFound")}>
           <FaCog />
         </button>
         <img

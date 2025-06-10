@@ -3,14 +3,14 @@ import { useNavigate } from "react-router-dom";
 import { BiCog, BiLogOut } from "react-icons/bi";
 import "./popUp.css";
 import Profile from "../Profile/profile";
-import avatarList from "../../assets/avatarList"; // tambahkan ini
+import avatarList from "../../assets/avatarList"; 
 
 const ProfilePopup = ({ isOpen, onClose }) => {
   const popupRef = useRef(null);
   const navigate = useNavigate();
 
   const [showProfileOpen, setProfileOpen] = useState(false);
-  const [avatar, setAvatar] = useState(""); // tambahkan state avatar
+  const [avatar, setAvatar] = useState("");
 
   const handleProfileClose = () => {
     const updatedAvatar = localStorage.getItem("selectedAvatar");
@@ -61,7 +61,6 @@ const ProfilePopup = ({ isOpen, onClose }) => {
         <BiLogOut size={20} /> Log out
       </div>
 
-      {/* Popup Profile Settings */}
       <Profile isOpen={showProfileOpen} onClose={handleProfileClose} />
     </div>
   );
